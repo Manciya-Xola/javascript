@@ -24,7 +24,9 @@ const people = [
   },
 ];
 
-const result = 0; // Write your answer here
+const result = people.map((person) => {
+  return person.firstName;
+}).join(" "); // Write your answer here
 
 // Do not remove this and do not change the
 //    variable 'result' name above. It's

@@ -17,3 +17,10 @@ const person = {
     branchName: "Scranton",
   },
 };
+delete person.firstName;
+delete person.isAdmin;
+delete person.location.branchName;
+const result =person;
+
+
+module.exports = result;
